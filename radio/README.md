@@ -9,3 +9,18 @@ The format of the files is as follows: each line is a different data instance.  
 The remaining fields on each line comprise the data itself, where the real values and complex values are interleaved. In particular, if the real value at time 0 is r0, the complex value at time 0 is c0, the real value at time 1 is r1, etc., then each line is formatted:
 
 `label r0 c0 r1 c1 r2 c2...r127 c127`
+
+## Scikit-Learn Results
+
+As a baseline for comparison for neuromorphic results on this task, we have provided a table of scikit-learn classifier results on this dataset below.  We have not altered the hyperparameters except where specified. 
+
+| Classifier | Training | Testing |
+| --- | :---: | :---: |
+| KNN (neighbors = 3) | 0.6633 | 0.4733 |
+| Naive Bayes | 0.6433 | 0.65 |
+| Random Forest (max_depth = 5, n_estimators=10, max_features=1) | 0.87 | 0.75 | 
+| Linear SVM (kernel="linear", C=0.025) | 0.6933 | 0.6167 |
+| MLP (one hidden layer of 100 neurons) | 0.9967 | 0.6933 | 
+| Decision Tree (max depth=5) | 0.8967 | 0.68 |
+| AdaBoost | 1.0 | 0.75 | 
+| RBF SVM (gamma=2, C=1) | 1.0 | 0.5633 |
