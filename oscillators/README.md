@@ -4,12 +4,12 @@ In this task, we construct a frequency oscillator consisting of recurrent loops.
 
 We use a small network of 4-stage oscillators that are tiled in a 5x5 arrangement:
 
-[network](network.png)
+![network](network.png)
 
 Oscillators in a row are chained together with one intermediate neuron between each. Each neuron should have a low threshold and each synapse should have a strong enough positive weight that it can trigger its post-synaptic neuron to fire. Delays (synaptic and/or neuronal) should be such that, once stimulated, one neuron in each 4-stage oscillator should fire every time step.  With a network of this structure, a single input spike should be applied on each input neuron at time 0.  The task is to generate 10 spikes on each output neuron; in particular, once the first output fire occurs, the remaining output fires should occur every fourth time step. 
 
 A network description file is available in `network.gml` as a GML directed graph.  The expected spike raster plot is:
 
-[spikeraster](spike_raster.png)
+![spikeraster](spike_raster.png)
 
 The actual expected spike raster is given in `activity.log`. Each line has a space delimited time, neuron pair.
