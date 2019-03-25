@@ -2,6 +2,13 @@ We propose using a graph inspired by the way that a city's road network is desig
 
 Once the corresponding SNN has been built, the source node's neuron should be set as an input and the neurons corresponding to the remaining nodes should be monitored to see when they fire as the network activity commences.  The source neuron should be stimulated with a single spike value and the network should be allowed to run for at least 200 time steps, which will allow the spikes to propagate throughout the network.  Then, the fire times of the remaining neurons can be used to define the length of the shortest path from the source node is to each of the other nodes in the graph. In particular, the time of the first fire on each neuron in the graph gives the length of the shortest path from the source node to that destination node. 
 
+A network description file is available in `network.gml` as a GML directed graph. The expected spike raster plot for the provided network is:
+
+![spikeraster](spike_raster.png)
+
+The spike raster data is given in `activity.log`. Each line is formatted as a space delimited time,neuron pair.
+
 The following metrics should be reported for this task:
 - Energy required to complete the task on the neuromorphic implementation. 
 - Size of the resulting network in neurons and synapses.  Though the graph is pre-specified, as noted above, the embedding of the graph may require additional structure. 
+

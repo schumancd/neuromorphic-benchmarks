@@ -12,4 +12,4 @@ A network description file is available in `network.gml` as a GML directed graph
 
 [spikeraster](spike_raster.png)
 
-The actual expected spike raster is given in `activity.log`. Each line has a space delimited time, neuron pair.
+The spike raster data is given in `activity.log`. Each line is formatted as a space delimited time, neuron pair.
