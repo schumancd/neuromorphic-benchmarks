@@ -38,7 +38,9 @@ rec 5 0
 ...
 ```
 
-We allow that the neuromorphic detector must report the change in rate of arrival within 100 time steps, and must specify that the rate change either increased or decreased.  Rather than specifying a specific time value associated with the time step (e.g., milliseconds, seconds, etc.), we leave it in time step units to accommodate neuromorphic implementations with different clock rates.
+In this example, we have two events types, `increased_rate` (type 1) and `decreased_rate` (type 2).  When the events are specified, the type of the event is specified (type 1 -- increasing and type 2 -- decreasing), and the time the event starts is also specified (when the rate increases or decreases).  We allow that the neuromorphic detector must report the change in rate of arrival within 100 time steps, and must specify that the rate change either increased or decreased.  Because we allow for a 100 time step window to detect the event, the event "starts" at the real start time and "ends" 100 time steps later.   
+
+Rather than specifying a specific time value associated with the time step (e.g., milliseconds, seconds, etc.), we leave it in time step units to accommodate neuromorphic implementations with different clock rates.
 
 ## Metrics to Report
 
