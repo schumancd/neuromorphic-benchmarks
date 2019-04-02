@@ -24,3 +24,10 @@ As a baseline for comparison for neuromorphic results on this task, we have prov
 | Decision Tree (max depth=5) | 0.8967 | 0.68 |
 | AdaBoost | 1.0 | 0.75 | 
 | RBF SVM (gamma=2, C=1) | 1.0 | 0.5633 |
+
+## Metrics to Report
+
+The following metrics should be reported for this task:
+- Accuracy on the training set
+- Accuracy on the testing set
+- Average energy per classification on the testing set
