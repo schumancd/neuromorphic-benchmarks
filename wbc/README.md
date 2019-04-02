@@ -23,3 +23,10 @@ There are many published results on this dataset.  A summary of some of the trad
 | Decision Tree (max depth=5) | 0.998 | 0.898 |
 | AdaBoost | 1.0 | 0.937 | 
 | RBF SVM (gamma=2, C=1) | 1.0 | 0.808 |
+
+## Metrics to Report
+
+The following metrics should be reported for this task:
+- Accuracy on the training set
+- Accuracy on the testing set
+- Average energy per classification on the testing set
