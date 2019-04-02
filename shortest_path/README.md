@@ -8,6 +8,7 @@ A network description file is available in `network.gml` as a GML directed graph
 
 The spike raster data is given in `activity.log`. Each line is formatted as a space delimited time,neuron pair.
 
+## Metrics to Report
 The following metrics should be reported for this task:
 - Energy required to complete the task on the neuromorphic implementation. 
 - Size of the resulting network in neurons and synapses.  Though the graph is pre-specified, as noted above, the embedding of the graph may require additional structure. 
