@@ -30,3 +30,19 @@ The following metrics should be reported for this task:
 - Accuracy on the training set
 - Accuracy on the testing set
 - Average energy per classification on the testing set
+
+
+## Citation
+
+Wolberg, W.H., & Mangasarian, O.L. (1990). Multisurface method of pattern separation for medical diagnosis applied to breast cytology. In Proceedings of the National Academy of Sciences, 87, 9193--9196. 
+
+```
+@inproceedings { wolberg1990multisurface,
+  author = "W Wolberg and O Mangasarian",
+  title = "Multisurface method of pattern separation for medical diagnosis applied to breast cytology,",
+  pages = "9193--9196",
+  month = "Dec",
+  year = "1990",
+  booktitle = "Proceedings of the National Academy of Sciences",
+}
+```
