@@ -2,6 +2,8 @@
 
 Contributors: James S. Plank and Catherine D. Schuman
 
+Repository created: 2019
+
 Our time series classification task is based on a pared down version of the satellite radio dataset [RadioML](https://www.deepsig.io/datasets). The data instances in this task are composed of 128-sample snippets of complex-valued radio signals.  In the RadioML dataset, the waveforms have been modulated by 11 different waveforms and 20 different signal-to-noise ratios.  We use a simplified version of this task, described by [Reynolds, et al.](http://neuromorphic.eecs.utk.edu/publications/2018-07-24-a-comparison-of-neuromorphic-classification-tasks/), where the goal is to differentiate one of the modulation types (8PSK) from all of the other modulation types.  
 
 The training set is composed of 300 data instances, equally divided between 8PSK and other modulation types (available in training-radio-8spk-10.txt file).  The testing set (available in the testing-radio-8spk-10.txt file) is composed of 300 different data instances, again, equally divided between 8PSK and other modulation types.
