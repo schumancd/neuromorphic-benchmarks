@@ -2,6 +2,8 @@
 
 Contributors: James S. Plank and Catherine D. Schuman
 
+Repository created: 2019
+
 We use the [MNIST handwritten digit classification task](http://yann.lecun.com/exdb/mnist/) as the image classification task, as it is one of the most popular neuromorphic tasks published in the literature to date.  Though there are neuromorphic versions of the MNIST handwritten digit classification task (such as [N-MNIST](https://www.garrickorchard.com/datasets/n-mnist)), we restrict our attention to the original task, in which there are 60,000 training examples and 10,000 testing examples, and each data example is a 28 by 28 pixel grayscale image depicting a handwritten number (0-9).  We restrict our attention to the original dataset because there are many existing published results in the neuromorphic community as well as the many published results for other machine learning techniques.  We do not, however, specify how the input should be encoded into the network, which leaves the benchmark user some freedom in how they approach the task.  
 
 We do not include the data for the MNIST task in the repository as it is available as we used it on the [MNIST website](http://yann.lecun.com/exdb/mnist/). 
