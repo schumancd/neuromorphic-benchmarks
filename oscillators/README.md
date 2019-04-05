@@ -1,5 +1,7 @@
 # Network of Oscillators
 
+Contributors: J. Parker Mitchell and Catherine D. Schuman
+
 In this task, we construct a frequency oscillator consisting of recurrent loops. This task serves as an interesting method to examine characteristics of differing systems because the activity pattern within the oscillator may be matched across varying hardware implementations.
 
 We use a small network of 4-stage oscillators that are tiled in a 5x5 arrangement:
