@@ -1,6 +1,6 @@
 # Repository for Neuromorphic Computing Benchmark Tasks
 
-Authors: Catherine D. Schuman, James S. Plank, and Robert Patton
+Authors: Catherine D. Schuman, James S. Plank, and J. Parker Mitchell
 
 This repository hosts a set of neuromorphic computing benchmark tasks.  The initial set of tasks that are included in this repository are:
 - Network of oscillators
