@@ -1,6 +1,8 @@
 # Rate Change Detection
 
- A similar version of this task is described in detail by [Schuman, et al](http://neuromorphic.eecs.utk.edu/publications/2013-06-10-variable-structure-dynamic-artificial-neural-networks/). For this task, the goal of the spiking neuromorphic system is to detect when a substantial change in the arrival of spikes has occurred.  This task relates to potential applications in network traffic analysis, where one may want to monitor patterns in packet arrival rates.  We specify as the training set 60 random traffic patterns, each of which occurs over the course of 10,000 time steps with labeled points where the rate changes occur. We specify another 40 random traffic patterns as the testing set.  Both the training and testing sets are available in this repository.  Each of the training and testing instances are in a particular format:  
+Contributors: James S. Plank, Catherine D. Schuman, Michael Goin
+
+A similar version of this task is described in detail by [Schuman, et al](http://neuromorphic.eecs.utk.edu/publications/2013-06-10-variable-structure-dynamic-artificial-neural-networks/). For this task, the goal of the spiking neuromorphic system is to detect when a substantial change in the arrival of spikes has occurred.  This task relates to potential applications in network traffic analysis, where one may want to monitor patterns in packet arrival rates.  We specify as the training set 60 random traffic patterns, each of which occurs over the course of 10,000 time steps with labeled points where the rate changes occur. We specify another 40 random traffic patterns as the testing set.  Both the training and testing sets are available in this repository.  Each of the training and testing instances are in a particular format:  
 
 ```
 # HEADER
