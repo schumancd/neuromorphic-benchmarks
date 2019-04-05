@@ -35,3 +35,7 @@ The following metrics should be reported for this task:
 - Accuracy on the training set
 - Accuracy on the testing set
 - Average energy per classification on the testing set
+
+## Citation
+
+`DeepSig, "RF Datasets for Machine Learning," DeepSig Inc., [Online]. Available: https://www.deepsig.io/datasets/`
